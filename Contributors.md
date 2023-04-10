@@ -1,3 +1,3 @@
 # Contributors
 
-<!-- - [Jam C.](https://github.com/maiqxx) -->
+- [Jam C.](https://github.com/maiqxx)
