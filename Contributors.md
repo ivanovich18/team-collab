@@ -4,7 +4,7 @@ Hello guys, kindly list your name below:
 
 - [Jam C.](https://github.com/maiqxx)
 - [Ivan S.](https://github.com/ivanovich18)
-- [Kent C.](https://github.com/hiddenbladez4)
+- [Kent C.](https://github.com/kentcanonigo)
 
 
 
