@@ -27,7 +27,7 @@ Next, copy the forked repository to your computer. Open your GitHub account and 
 Open a terminal and run the following git command:
 
 ```
-git clone "url you just copied"
+git clone <url_you_just_copied>
 ```
 
 wher the "url you just copied" (without the quotation marks) refers to the web address of your forked repository, which you obtained in the previous steps.
@@ -53,13 +53,13 @@ cd team-collab
 Now create a branch using the `git switch` command:
 
 ```
-git switch -c give-your-branch-a-name
+git switch -c <branch_name>
 ```
 
 For example:
 
 ```
-git switch -c add-forda-go
+git switch -c <git-jam-sesh>
 ```
 
 ## Step 4: Make necessary changes and commit those changes
@@ -78,7 +78,7 @@ git add Contributors.md
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m <"commit_message">
 ```
 
 replacing `your-name` with your name.
@@ -88,15 +88,15 @@ replacing `your-name` with your name.
 Push your changes using the command `git push`:
 
 ```
-git push -u origin your-branch-name
+git push -u origin <branch_name>
 ```
 
-replacing `your-branch-name` with the name of the branch you created earlier.
+replacing `<branch_name>` with the name of the branch you created earlier.
 
 For example:
 
 ```
-git push -u origin add-forda-go
+git push -u origin git-jam-sesh
 ```
 
 <!-- <details>
@@ -120,12 +120,12 @@ Now submit the pull request.
 
 <img style="float: right;" src="img/submit-pull-request.png" alt="submit pull request" />
 
-I will soon merge all of the changes you made into the main branch of this project. Once the changes have been merged, you will receive a notification. 
+We will soon merge all of the changes you made into the main branch of this project. Once the changes have been merged, you will receive a notification. 
 
 
 ## What a NICE!
 
-Congratulations! You have successfully completed the typical process of forking, cloning, editing, and submitting a pull request that is commonly used by contributors.
+Congratulations! You have successfully completed the usual process of forking, cloning, editing, and submitting a pull request that is commonly used by contributors.
 
 Join our club and let's grow together! [Join GDSC CTU](https://gdsc.community.dev/cebu-technological-university/).
 
