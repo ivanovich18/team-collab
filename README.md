@@ -27,7 +27,7 @@ Open a terminal and run the following git command:
 git clone "url you just copied"
 ```
 
-wher the "url you just copied" (without the quotation marks) refers to the web address of your forked repository, which you obtained in the previous steps.
+where the "url you just copied" (without the quotation marks) refers to the web address of your forked repository, which you obtained in the previous steps.
 
 <img align="right" width="300" src="img/copy-URL.png" alt="copy URL to clipboard" />
 
