@@ -1,21 +1,24 @@
 
-### GDSC-CTU Workshop
-# Get Git With It!
+#### Google Developer Student Clubs Cebu Technological University
+
+# Git & GitHub Workshop
 The goal of this project is to make it easier for newbies to collaborate with others. Just follow the steps below:
 
 
-<!-- _If you're not comfortable with command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)_ -->
+<!-- [If you're not comfortable with the command line, [here are tutorials using GUI tools.](#tutorials-using-other-tools)](url) -->
 
-
-<img align="right" width="300" src="img/fork.png" alt="fork this repository" />
 
 #### If you don't have git on your machine, [install it](https://docs.github.com/en/get-started/quickstart/set-up-git).
 
-## Fork this repository
+------------------------------------------------------
+
+<img align="right" width="300" src="img/fork.png" alt="fork this repository" />
+
+## Step 1: Fork this repository
 
 Make a copy of this repository in your account by clicking on the "fork" button at the top of this page.
 
-## Clone the repository
+## Step 2: Clone the repository
 
 <img align="right" width="300" src="img/clone.png" alt="clone this repository" />
 
@@ -24,7 +27,7 @@ Next, copy the forked repository to your computer. Open your GitHub account and 
 Open a terminal and run the following git command:
 
 ```
-git clone "url you just copied"
+git clone <url_you_just_copied>
 ```
 
 where the "url you just copied" (without the quotation marks) refers to the web address of your forked repository, which you obtained in the previous steps.
@@ -39,7 +42,7 @@ git clone https://github.com/your-username/team-collab.git
 
 where `your-username` is your GitHub username. In this step, you are transferring the files and information from the team-collab repository on GitHub to your own computer.
 
-## Create a branch
+## Step 3: Create a branch
 
 Navigate to the repository directory on your computer (if you haven't done so already):
 
@@ -50,16 +53,16 @@ cd team-collab
 Now create a branch using the `git switch` command:
 
 ```
-git switch -c give-your-branch-a-name
+git switch -c <branch_name>
 ```
 
 For example:
 
 ```
-git switch -c add-forda-go
+git switch -c <git-jam-sesh>
 ```
 
-## Make necessary changes and commit those changes
+## Step 4: Make necessary changes and commit those changes
 
 Using a text editor, open the file named `Contributors.md`. Add your name to the file, making sure not to add it at the very beginning or end of the file. You can place it anywhere in between. Once you've added your name, save the file.
 
@@ -75,25 +78,25 @@ git add Contributors.md
 Now commit those changes using the `git commit` command:
 
 ```
-git commit -m "Add your-name to Contributors list"
+git commit -m <"commit_message">
 ```
 
 replacing `your-name` with your name.
 
-## Push changes to GitHub
+## Step 5: Push changes to GitHub
 
 Push your changes using the command `git push`:
 
 ```
-git push -u origin your-branch-name
+git push -u origin <branch_name>
 ```
 
-replacing `your-branch-name` with the name of the branch you created earlier.
+replacing `<branch_name>` with the name of the branch you created earlier.
 
 For example:
 
 ```
-git push -u origin add-forda-go
+git push -u origin git-jam-sesh
 ```
 
 <!-- <details>
@@ -107,7 +110,7 @@ git push -u origin add-forda-go
 
 </details> -->
 
-## Submit your changes for review
+## Step 6: Submit your changes for review
 
 If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
 
@@ -117,12 +120,12 @@ Now submit the pull request.
 
 <img style="float: right;" src="img/submit-pull-request.png" alt="submit pull request" />
 
-I will soon merge all of the changes you made into the main branch of this project. Once the changes have been merged, you will receive a notification. 
+We will soon merge all of the changes you made into the main branch of this project. Once the changes have been merged, you will receive a notification. 
 
 
-## Payts na ba?
+## What a NICE!
 
-Congratulations! You have successfully completed the typical process of forking, cloning, editing, and submitting a pull request that is commonly used by contributors.
+Congratulations! You have successfully completed the usual process of forking, cloning, editing, and submitting a pull request that is commonly used by contributors.
 
-Join our club and let's grow together! [Join GDSC-CTU](https://gdsc.community.dev/cebu-technological-university/).
+Join our club and let's grow together! [Join GDSC CTU](https://gdsc.community.dev/cebu-technological-university/).
 
